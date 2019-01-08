@@ -1,0 +1,4 @@
+Parallel02IT.class
+Parallel01IT.class
+com\study\cucumber\steps\GoogleSteps.class
+com\study\cucumber\steps\BaseSteps.class

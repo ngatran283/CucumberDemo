@@ -1,0 +1,208 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 195587,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSteps.before()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Direct search on google firefox",
+        "description": "",
+        "id": "search-on-google;direct-search-on-google-firefox",
+        "after": [
+          {
+            "result": {
+              "duration": 2336656673,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6475016991,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch browser \u0027firefox\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 16
+                }
+              ],
+              "location": "GoogleSteps.launch_browser_firefox(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2326590747,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to \u0027http://google.com/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://google.com/",
+                  "offset": 18
+                }
+              ],
+              "location": "GoogleSteps.user_navigate_to_http_google_com(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 409152180,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter search term \u0027Automation\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation",
+                  "offset": 24
+                }
+              ],
+              "location": "GoogleSteps.user_enter_search_term_Automation(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2619893975,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on search button",
+            "match": {
+              "location": "GoogleSteps.click_on_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 75139,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSteps.before()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Direct search on google chrome",
+        "description": "",
+        "id": "search-on-google;direct-search-on-google-chrome",
+        "after": [
+          {
+            "result": {
+              "duration": 1241831040,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4535619459,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "launch browser \u0027chrome\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 16
+                }
+              ],
+              "location": "GoogleSteps.launch_browser_firefox(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3458518599,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user navigate to \u0027http://google.com/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://google.com/",
+                  "offset": 18
+                }
+              ],
+              "location": "GoogleSteps.user_navigate_to_http_google_com(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1096816994,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enter search term \u0027Automation\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation",
+                  "offset": 24
+                }
+              ],
+              "location": "GoogleSteps.user_enter_search_term_Automation(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2070517739,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on search button",
+            "match": {
+              "location": "GoogleSteps.click_on_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Search on google",
+    "description": "",
+    "id": "search-on-google",
+    "keyword": "Feature",
+    "uri": "D:/eclipse-workspace/workspace2/CucumberBDDParallel/src/test/resources/com/study/cucumber/features/search-many.feature"
+  }
+]

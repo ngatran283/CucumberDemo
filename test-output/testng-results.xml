@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24963" started-at="2018-12-20T04:01:21Z" finished-at="2018-12-20T04:01:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24963" started-at="2018-12-20T04:01:21Z" finished-at="2018-12-20T04:01:46Z">
+      <class name="com.study.cucumber.runners.SearchManyFeature">
+        <test-method status="PASS" signature="runCukes()[pri:0, instance:com.study.cucumber.runners.SearchManyFeature@52a86356]" name="runCukes" duration-ms="20836" started-at="2018-12-20T11:01:21Z" finished-at="2018-12-20T11:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCukes -->
+      </class> <!-- com.study.cucumber.runners.SearchManyFeature -->
+      <class name="com.study.cucumber.runners.SearchOutlineFeature">
+        <test-method status="PASS" signature="runCukes()[pri:0, instance:com.study.cucumber.runners.SearchOutlineFeature@5ec0a365]" name="runCukes" duration-ms="24923" started-at="2018-12-20T11:01:21Z" finished-at="2018-12-20T11:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCukes -->
+      </class> <!-- com.study.cucumber.runners.SearchOutlineFeature -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

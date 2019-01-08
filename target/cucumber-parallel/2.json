@@ -1,0 +1,226 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 170289,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSteps.before()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Direct search on google firefox",
+        "description": "",
+        "id": "search-on-google-using-scenario-outline;direct-search-on-google-firefox;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4866194439,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13865676775,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch browser \u0027firefox\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "firefox",
+                  "offset": 16
+                }
+              ],
+              "location": "GoogleSteps.launch_browser_firefox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2601077994,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to \u0027http://google.com/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://google.com/",
+                  "offset": 18
+                }
+              ],
+              "location": "GoogleSteps.user_navigate_to_http_google_com(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 456009953,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter search term \u0027Automation\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation",
+                  "offset": 24
+                }
+              ],
+              "location": "GoogleSteps.user_enter_search_term_Automation(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4314327680,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on search button",
+            "match": {
+              "location": "GoogleSteps.click_on_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 72873,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSteps.before()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Direct search on google firefox",
+        "description": "",
+        "id": "search-on-google-using-scenario-outline;direct-search-on-google-firefox;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1100034359,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GoogleSteps.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3871159626,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "launch browser \u0027chrome\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 16
+                }
+              ],
+              "location": "GoogleSteps.launch_browser_firefox(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2248437570,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to \u0027http://google.com/\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://google.com/",
+                  "offset": 18
+                }
+              ],
+              "location": "GoogleSteps.user_navigate_to_http_google_com(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 310023259,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter search term \u0027Selenium\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium",
+                  "offset": 24
+                }
+              ],
+              "location": "GoogleSteps.user_enter_search_term_Automation(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2095028016,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on search button",
+            "match": {
+              "location": "GoogleSteps.click_on_search_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Search on google using Scenario Outline",
+    "description": "",
+    "id": "search-on-google-using-scenario-outline",
+    "keyword": "Feature",
+    "uri": "D:/eclipse-workspace/workspace2/CucumberBDDParallel/src/test/resources/com/study/cucumber/features/search-outline.feature"
+  }
+]
